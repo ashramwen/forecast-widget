@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body {
     /*background-color: rgba(0, 0, 0, 0.7);*/
+    background-color: transparent;
 }
 
 #forecast-widget {
