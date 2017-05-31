@@ -33,11 +33,15 @@ var dayMapping = {
 };
 
 setInterval(function () {
+    refresh();
+}, refresh_rate);
+refresh();
+
+function refresh() {
     $.get(url, function (data) {
-        console.log(data);
         update(data);
     });
-}, refresh_rate);
+}
 
 function update(output) {
     // Temperature direction (rising or falling)
