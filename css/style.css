@@ -1,5 +1,9 @@
 @charset "UTF-8";
-#forecast-widget-index-js {
+body {
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+}
+
+#forecast-widget {
     top: 10px;
     left: 10px;
     width: 455px;
@@ -93,6 +97,7 @@
 }
 
 .fe-forecast {
+    width: 445px;
     opacity: 1;
     -webkit-transition: opacity 0.5s;
 }
